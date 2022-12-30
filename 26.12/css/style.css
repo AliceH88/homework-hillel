@@ -1,0 +1,298 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: rgb(198, 228, 218);
+}
+.table{
+    width: 1200px;
+    margin: 0 auto;
+}
+.inline{
+   width: 1200px;
+    margin: 0 auto;  
+}
+.partOne{
+    width: 1200px;
+}
+.inline .partOne{
+    font-size: 0;
+}
+.in_pO{
+    width: 400px;
+    background-color: rgb(248, 142, 3);
+    outline: 2px solid black;
+}
+.table .in_pO{
+    display: table-cell;
+}
+.inline .in_pO{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.partTwo{
+    width: 1200px;
+}
+.inline .partTwo{
+    font-size: 0;
+}
+.first{
+    width: 800px;
+    background-color: blue;
+}
+.second{
+    width: 400px;
+    background-color: brown;
+    }
+.inline .first{
+    display: inline-block;
+}
+.inline .second{
+    display: inline-block;
+    vertical-align: top;
+}
+.inline .inFirst{
+    outline: 2px solid black;
+    display: inline-block;
+    width: 800px;
+    height: 50px;
+    font-size: 20px;
+}
+.inline .inSecond{
+    outline: 2px solid black;
+    display: inline-block;
+    width: 400px;
+    height: 75px;
+    font-size: 20px;
+}
+.table .first{
+    display: table-cell;
+}
+.table .second{
+    display: table-cell;
+}
+.table .inFirst{
+    font-size: 20px;
+    width: 800px;
+    height: 50px;
+    outline: 2px solid black;
+}
+.table .inSecond{
+    font-size: 20px;
+    width: 400px;
+    height: 75px;
+    outline: 2px solid black;
+}
+.inline .partThree{
+    font-size: 0;
+    display: inline-block;
+}
+.inline .pThf{
+    font-size: 20px;
+    display: inline-block;
+    
+}
+.inline .pThs{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: top;
+}
+.inline .in_ps{
+    font-size: 0;
+    display: inline-block;
+}
+.inline .in_pT{
+    font-size: 20px;
+    display: inline-block;
+}
+.inline .on{
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+.on{
+    width: 800px;
+    outline: 2px solid black;
+    background: rgb(21, 241, 205);
+    
+}
+.pThf{
+    width: 400px;
+    outline: 2px solid black;
+    background: rgb(95, 238, 12);
+}
+.pThs{
+    width: 800px;
+    outline: 2px solid black;
+    background: rgb(9, 160, 72);
+}
+.in_ps{
+    outline: 2px solid black;
+    background: rgb(8, 243, 79);
+}
+.in_pT{
+    width: 400px;
+    background-color: rgb(15, 240, 184);
+    outline: 2px solid black;
+    vertical-align: top;
+    height: 120px;
+}
+.table .pThf{
+    display: table-cell;
+}
+.table .pThs{
+    display: table-cell;
+}
+.table .in_ps{
+    display: table-cell;
+}
+.table .in_pT{
+    display: table-cell;
+}
+.table .in_pT{
+    font-size: 20px;
+    width: 400px;
+    height: 75px;
+    outline: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+.lastOne{
+    width: 800px;
+    height: 240px;
+    height: 80px;
+    outline: 2px solid black;
+    background: rgb(74, 91, 247);
+}
+
+.lastTwo{
+    width: 400px;
+    height: 240px;
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+}
+.lower {
+    width: 800px;
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+}   
+.lowerRight{
+    width: 400px;
+    outline: 2px solid black;
+    background: rgb(128, 159, 196);
+}
+.lowerLeft {
+    width: 400px;
+    height: 160px;
+    outline: 2px solid black;
+    background: rgb(110, 114, 165);
+}
+.upDown {
+    outline: 2px solid black;
+}
+.table .lastOne{
+    display: table-cell;
+}
+.table .lastTwo{
+    display: table-cell;
+}
+.table .lowerRight{
+    display: table-cell;
+}
+.table .lower{
+    display: table-cell;
+}
+.table .lowerLeft{
+    display: table-cell;
+}
+.inline .partFour{
+    font-size: 0;
+}
+.inline .lastOne{
+    display: inline-block;
+    font-size: 0;
+}
+
+
+.inline .upper{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.inline .lower{
+    display: inline-block;
+}
+.inline .lowerLeft{
+    display: inline-block;
+    font-size: 0;
+}
+.inline .upDown{
+    display: inline-block;
+    font-size: 20px;
+}
+.inline .lowerRight{
+    display: inline-block;
+    font-size: 20px;
+    height: 160px;
+    vertical-align: top;
+}
+.inline .lastTwo{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+.inline .lt{
+    display: inline-block;
+    font-size: 20px;
+}
