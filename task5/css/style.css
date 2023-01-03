@@ -79,8 +79,9 @@ body{ background:  rgb(196, 247, 247);
             text-shadow: 2px 2px rgb(22, 24, 24);
             background: rgb(92, 165, 194);
             }
-      
+            
         footer{
             text-align: center;
+            background-color: rgb(230, 121, 211);
         }
    
