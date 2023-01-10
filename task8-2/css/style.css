@@ -1,0 +1,180 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: rgb(7, 70, 27);
+    text-align: center;
+
+}
+.flex{
+   background: rgb(236, 191, 230);
+    margin: 60px; auto;
+}
+.flexOne{
+    display:flex;
+ background-color: rgb(194, 215, 236);
+    justify-content: center;
+    
+}
+
+.in_fO{
+     background-color: rgb(3, 158, 248);
+    outline: 2px solid black;
+    flex: 0 1 400px;
+
+}
+
+.flexTwo{
+    background-color: rgb(158, 218, 198);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.first{
+   
+    background-color: rgb(245, 12, 63);
+    flex: 0 1 800px;
+}
+.inFirst{
+   
+    outline: 2px solid black; 
+    background-color: blueviolet;
+   
+}
+.second{
+
+    background-color: rgb(177, 28, 127);
+    flex: 0 1 400px;
+
+   }
+.inSecond{
+    height: 45px;
+    outline: 2px solid black; 
+    background-color: rgb(226, 43, 113);
+   
+}
+
+
+.flexThree{
+    background-color: rgb(243, 234, 238);
+    height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.on{
+    outline: 2px solid black;
+    background: rgb(21, 241, 205);
+    
+}
+.ff{
+    flex: 0 1 400px;
+    outline: 2px solid black;
+    background: rgb(95, 238, 12);
+    height: 150px;
+}
+.fs{
+    flex: 0 1 800px;
+    height: 50px;
+    outline: 2px solid black;
+    background: rgb(9, 160, 72);
+}
+.in_ps{
+    outline: 2px solid black;
+    background: rgb(8, 243, 79);
+    display: flex;
+   
+}
+.in_pT{
+    
+    background-color: rgb(15, 240, 184);
+    outline: 2px solid black;
+    height: 100px;
+  flex: 0 1 400px;
+}
+
+.flexFour{
+    background-color: rgb(240, 204, 158);
+    display: flex;
+    justify-content: center;
+}
+.lastOne{
+    flex: 0 1 800px;
+    height: 175px;
+    outline: 2px solid black;
+    background: rgb(74, 91, 247);
+}
+
+.lastTwo{
+    flex: 0 1 400px;
+    height: 175px;
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+}
+.lower {
+
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+    height: 100px;
+    display: flex;
+}  
+
+ 
+.lowerRight{
+    flex: 0 1 400px;
+    outline: 2px solid black;
+    background: rgb(128, 159, 196);
+}
+.lowerLeft {
+    flex: 0 1 400px;
+    outline: 2px solid black;
+    background: rgb(110, 114, 165);
+}
+.upDown{
+    outline: 2px solid black;
+    height: 50px;
+}
+.upper{
+    height: 75px;
+}

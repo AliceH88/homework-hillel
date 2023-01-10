@@ -1,0 +1,182 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: rgb(177, 241, 197);
+    text-align: center;
+}
+.floatSecond{
+    width: 1200px;
+    margin: 0 auto;
+}
+.partOne{
+    width: 1200px;
+    background-color: aquamarine;
+}
+
+.in_pO{
+    width: 400px;
+    background-color: rgb(3, 158, 248);
+    outline: 2px solid black;
+    float: left;
+    font-size: 15px;
+}
+
+.partTwo{
+    width: 1200px;
+    background-color: aquamarine;
+}
+.first{
+    width: 800px;
+    height: 90px;
+    background-color: rgb(245, 12, 63);
+   float: left;
+}
+.inFirst{
+    height: 30px;
+    font-size: 15px;
+    outline: 2px solid black; 
+    background-color: blueviolet;
+}
+.second{
+    width: 400px;
+    height: 90px;
+    background-color: rgb(177, 28, 127);
+    float: right;
+   }
+.inSecond{
+    height: 45px;
+    font-size: 15px;
+    outline: 2px solid black; 
+    background-color: rgb(226, 43, 113);
+}
+
+
+.partThree{
+    width: 1200px;
+    background-color: rgb(124, 60, 90);
+    height: 150px;
+}
+.on{
+    outline: 2px solid black;
+    background: rgb(21, 241, 205);
+    
+}
+.pThf{
+    width: 400px;
+    outline: 2px solid black;
+    background: rgb(95, 238, 12);
+    float: left;
+    height: 150px;
+}
+.pThs{
+    width: 800px;
+    height: 50px;
+    outline: 2px solid black;
+    background: rgb(9, 160, 72);
+    float: right;
+}
+.in_ps{
+    outline: 2px solid black;
+    background: rgb(8, 243, 79);
+}
+.in_pT{
+    width: 400px;
+    background-color: rgb(15, 240, 184);
+    outline: 2px solid black;
+    vertical-align: top;
+    height: 100px;
+    float: left;
+}
+
+.partFour{
+    width: 1200px;
+}
+.lastOne{
+    width: 800px;
+    height: 175px;
+    outline: 2px solid black;
+    background: rgb(74, 91, 247);
+    float: left;
+}
+
+.lastTwo{
+    width: 400px;
+    height: 175px;
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+    float: right;
+}
+.lower {
+
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+    height: 100px;
+}  
+
+ 
+.lowerRight{
+    width: 400px;
+    outline: 2px solid black;
+    background: rgb(128, 159, 196);
+    float: left;
+}
+.lowerLeft {
+    width: 400px;
+    outline: 2px solid black;
+    background: rgb(110, 114, 165);
+    float: left;
+}
+.upDown{
+    outline: 2px solid black;
+    height: 50px;
+}
+.upper{
+    height: 75px;
+}
+.clearfix:after{
+content: "";
+display: block;
+clear: both;
+}
