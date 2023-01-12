@@ -1,0 +1,294 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: rgb(7, 70, 27);
+    text-align: center;
+
+}
+.flex{
+   background: rgb(236, 191, 230);
+    margin: 60px; auto;
+}
+.flexOne{
+    display:flex;
+ background-color: rgb(194, 215, 236);
+    justify-content: center;
+    
+}
+
+.in_fO{
+     background-color: rgb(3, 158, 248);
+    outline: 2px solid black;
+    flex: 0 1 400px;
+
+}
+
+.flexTwo{
+    background-color: rgb(158, 218, 198);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.first{
+   
+    background-color: rgb(245, 12, 63);
+    flex: 0 1 800px;
+}
+.inFirst{
+   
+    outline: 2px solid black; 
+    background-color: blueviolet;
+   
+}
+.second{
+
+    background-color: rgb(177, 28, 127);
+    flex: 0 1 400px;
+
+   }
+.inSecond{
+    height: 45px;
+    outline: 2px solid black; 
+    background-color: rgb(226, 43, 113);
+   
+}
+
+
+.flexThree{
+    background-color: rgb(243, 234, 238);
+    height: 150px;
+  display: flex;
+  justify-content: center;
+}
+.on{
+    outline: 2px solid black;
+    background: rgb(21, 241, 205);
+    
+}
+.ff{
+    flex: 0 1 400px;
+    outline: 2px solid black;
+    background: rgb(95, 238, 12);
+    height: 150px;
+}
+.fs{
+    flex: 0 1 800px;
+    height: 50px;
+    outline: 2px solid black;
+    background: rgb(9, 160, 72);
+}
+.in_ps{
+    outline: 2px solid black;
+    background: rgb(8, 243, 79);
+    display: flex;
+   
+}
+.in_pT{
+    
+    background-color: rgb(15, 240, 184);
+    outline: 2px solid black;
+    height: 100px;
+  flex: 0 1 400px;
+}
+
+.flexFour{
+    background-color: rgb(240, 204, 158);
+    display: flex;
+    justify-content: center;
+}
+.lastOne{
+    flex: 0 1 800px;
+    height: 175px;
+    outline: 2px solid black;
+    background: rgb(74, 91, 247);
+}
+
+.lastTwo{
+    flex: 0 1 400px;
+    height: 175px;
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+}
+.lower {
+
+    outline: 2px solid black;
+    background: rgb(145, 181, 228);
+    height: 100px;
+    display: flex;
+}  
+
+ 
+.lowerRight{
+    flex: 0 1 400px;
+    outline: 2px solid black;
+    background: rgb(128, 159, 196);
+}
+.lowerLeft {
+    flex: 0 1 400px;
+    outline: 2px solid black;
+    background: rgb(110, 114, 165);
+}
+.upDown{
+    outline: 2px solid black;
+    height: 50px;
+}
+.upper{
+    height: 75px;
+}
+
+.grid{
+    background-color: gray;
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px 200px;
+}
+.inGrid{
+    background-color: aliceblue;
+    outline: 2px solid blue;
+}
+.gridTwo{
+    background-color: aquamarine;
+    padding: 100px 90px 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "A B C" 
+                         "F F D"
+                         "F1 F1 D"
+                         "F1 F1 G"
+                         "F2 F2 G"
+                         "H M M"
+                         "H K L"
+                         "Q Q W"
+                         "I O W"
+                         "N O W";
+}
+
+.grid-A{
+    background-color: rgb(7, 22, 243);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: A;
+}
+.grid-B{
+    background-color: rgb(64, 60, 247);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: B;
+}
+.grid-C{
+    background-color: rgb(109, 118, 252);
+    outline: 2px solid rgb(11, 1, 20);
+    grid-area: C;
+}
+.grid-F{
+    background-color: rgb(7, 241, 132);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: F;
+}
+.grid-D{
+    background-color: rgb(109, 235, 151);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: D;
+}
+.grid-F1{
+    background-color: rgb(88, 207, 78);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: F1;
+}
+.grid-G{
+    background-color: rgb(27, 209, 124);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: G;
+}
+.grid-F2{
+    background-color: rgb(86, 138, 94);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: F2;
+}
+.grid-H{
+    background-color: rgb(199, 146, 2);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: H;
+}
+.grid-M{
+    background-color: rgb(226, 188, 17);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: M;
+}
+.grid-K{
+    background-color: rgb(230, 98, 11);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: K;
+}
+.grid-L{
+    background-color: rgb(238, 67, 0);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: L;
+}
+.grid-Q{
+    background-color: rgb(243, 5, 152);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: Q;
+}
+.grid-W{
+    background-color: rgb(241, 97, 164);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: W;
+}
+.grid-I{
+    background-color: rgb(238, 52, 52);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: I;
+}
+.grid-O{
+    background-color: rgb(221, 12, 110);
+    outline: 2px solid rgb(14, 3, 8);
+    grid-area: O;
+}
+.grid-N{
+    background-color: rgb(218, 66, 91);
+    outline: 2px solid rgb(18, 13, 22);
+    grid-area: N;
+}
