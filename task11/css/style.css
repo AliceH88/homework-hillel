@@ -92,24 +92,177 @@ body{
     top: 50%;
     margin-top: -125px;
     }
-
-    .NT{
-        width: 800px;
-        height: 100px;
-        position: absolute;
-        color: rgb(240, 10, 209);
-        background-color: aliceblue;
-        top: 50%;
-        left: 50%;
-        margin-left: -400px;
-    }
-
    .nt{
     width: 100%;
     height: 100%;
     position: relative;
    }
-   .NT:hover{
+    .NT{
+        width: 800px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -400px;
+        visibility: hidden;
+    }
+
+
+   .nt:hover .NT{
     background-color: #eea1ce;
-   
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .Zms{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    visibility: hidden;
+   }
+   .zms{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+
+   .zms:hover .Zms{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .tse{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Tse{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .tse:hover .Tse{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .ra{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Ra{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    visibility: hidden;
+   }
+   .ra:hover .Ra{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .re{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Re{
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    visibility: hidden;
+   }
+   .re:hover .Re{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .vo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Vo{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .vo:hover .Vo{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .mo1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Mo1{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .mo1:hover .Mo1{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .mo2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Mo2{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .mo2:hover .Mo2{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .to{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .To{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    visibility: hidden;
+   }
+   .to:hover .To{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
    }
