@@ -1,0 +1,330 @@
+body{ 
+    background:  rgb(196, 247, 247);
+    position: relative;
+    }
+
+        .generalContainer{ 
+            margin: 0 auto;
+            text-align: center;
+            width: 1200px; 
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background: #9ce7eb;
+         }
+
+           .myFirstContainer{
+    
+            outline: #09f1b7 solid 10px;
+        
+        
+            background: rgb(2, 131, 252);
+           }
+        .biographyContainer{
+            margin-top: 40px;
+            outline: #e3b0f3 solid 10px;
+            text-align: center;
+            width: 1200px; 
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background: #f3b6d9;
+        
+        }
+        .NotFriendsContainer{
+            margin: 0 auto;
+            outline: #e3a1f7 solid 10px;
+            text-align: center;
+            width: 1200px; 
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px;
+            background: #eea1ce;
+            
+        }
+            .newContainer{
+                margin: 0 auto;
+                text-align: center;
+                width: 1200px; 
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 30px;
+                background: #efdff3;
+    
+
+            }
+
+
+            h1{ text-align: center;
+                color: rgb(12, 135, 235);
+                font-size: 40px;
+                font-weight: 800;
+                border: 2px solid rgb(8, 78, 25);
+                outline: #0cdda9 solid 10px;
+                margin:100px auto 0;
+                padding: 20px;
+                background: rgb(169, 204, 236);
+             }
+            
+            h2{ text-align: center;
+            color: rgb(67, 69, 233);
+            margin: 50px auto 0;
+            text-shadow: 2px 4px rgb(134, 148, 230);
+            background: #12ebd9;
+            }
+            
+            
+            
+            
+            
+            h3{ text-align: center;
+            color: #12ebd9;
+            margin: 100px auto 0;
+            text-shadow: 2px 2px rgb(22, 24, 24);
+            background: rgb(92, 165, 194);
+            }
+            
+        footer{
+            text-align: center;
+            background-color: rgb(230, 121, 211);
+        }
+   .navigatorContainer{
+    background-color: #07eecf;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -125px;
+    }
+   .nt{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+    .NT{
+        width: 800px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -400px;
+        visibility: hidden;
+    }
+
+
+   .nt:hover .NT{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .Zms{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    visibility: hidden;
+   }
+   .zms{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+
+   .zms:hover .Zms{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .tse{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Tse{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .tse:hover .Tse{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .ra{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Ra{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    visibility: hidden;
+   }
+   .ra:hover .Ra{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .re{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Re{
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    visibility: hidden;
+   }
+   .re:hover .Re{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .vo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Vo{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .vo:hover .Vo{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .mo1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Mo1{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .mo1:hover .Mo1{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .mo2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .Mo2{
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -400px;
+    visibility: hidden;
+   }
+   .mo2:hover .Mo2{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+   }
+   .to{
+    width: 100%;
+    height: 100%;
+    position: relative;
+   }
+   .To{
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    visibility: hidden;
+   }
+
+   .to:hover .To{
+    background-color: #eea1ce;
+    color: rgb(240, 10, 209);
+    visibility: visible;
+     }
+     
+
+.ul1{
+    font-size: 0;
+    text-align: center;
+}
+  .ul1 li{
+    display: inline-block;
+    font-size: 20px;
+    background: #ece2f0;
+    vertical-align: bottom;
+    position: relative;
+    border-top: 2px solid blue;
+    border-bottom:2px solid blue ;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+
+  }
+  .ul1 li:hover{
+    background: #07eecf;
+  }
+  .ul1 li a{
+    color: #b307f7;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+      padding: 10px 20px;
+      height: 35px;
+      width: 70px;
+  }
+  .ul1 .ul2{
+    position: absolute;
+
+    right: 0;
+    display: none;
+  }
+  .ul1 li:hover .ul2{
+    display: block;
+  }
+ .ul2 .Li2{
+    position: absolute;
+    left: 60%;
+    top: 0;
+    display: none;
+
+  }
+  
+  .float:hover .Li2{
+    display: block;
+  }
+
+ .ul1  .Li3{
+    position: absolute;
+    right: 100%;
+    bottom: 0%;
+    display: none;
+  }
+  .grid:hover .Li3{
+    display: block;
+  }
+  
